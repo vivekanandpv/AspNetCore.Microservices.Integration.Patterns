@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Api.Gateway
+namespace Analytics.Service
 {
     public class Program
     {
@@ -21,11 +21,6 @@ namespace Api.Gateway
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                })
-                .ConfigureAppConfiguration(config =>
-                {
-                    //  making Ocelot aware of re-route configurations
-                    config.AddJsonFile("configuration.json", optional: false);
                 });
     }
 }
