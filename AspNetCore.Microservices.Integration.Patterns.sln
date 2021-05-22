@@ -3,21 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Player.Service", "Player.Service\Player.Service.csproj", "{88D76DF3-BA91-4179-91C2-8908338EBC32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Player.Service", "Player.Service\Player.Service.csproj", "{88D76DF3-BA91-4179-91C2-8908338EBC32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cricket.Service", "Cricket.Service\Cricket.Service.csproj", "{3A3C2DA5-EBE4-4629-8E19-4E851E16C1E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cricket.Service", "Cricket.Service\Cricket.Service.csproj", "{3A3C2DA5-EBE4-4629-8E19-4E851E16C1E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finance.Service", "Finance.Service\Finance.Service.csproj", "{6777E03F-E2EC-4793-98D3-300569DAA21D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Finance.Service", "Finance.Service\Finance.Service.csproj", "{6777E03F-E2EC-4793-98D3-300569DAA21D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Api.Gateway", "Api.Gateway\Web.Api.Gateway.csproj", "{CBC994A6-9218-4AD5-983B-816EE65BAF8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web.Api.Gateway", "Api.Gateway\Web.Api.Gateway.csproj", "{CBC994A6-9218-4AD5-983B-816EE65BAF8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analytics.Service", "Analytics.Service\Analytics.Service.csproj", "{CAD7B808-EC08-45F7-B4B2-F3CE3C6910E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Analytics.Service", "Analytics.Service\Analytics.Service.csproj", "{CAD7B808-EC08-45F7-B4B2-F3CE3C6910E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DA.Api.Gateway", "DA.Api.Gateway\DA.Api.Gateway.csproj", "{16562D69-0C0F-4DFD-8E18-0AC2C36E3FAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DA.Api.Gateway", "DA.Api.Gateway\DA.Api.Gateway.csproj", "{16562D69-0C0F-4DFD-8E18-0AC2C36E3FAE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api.Gateways", "Api.Gateways", "{E08E4598-D1B0-4ED0-8A0F-61394F17EC63}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{701E68C8-4600-4DA4-81A2-57743E843F15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SD.Client", "SD.Client", "{1DAC3DD2-997D-401B-A95C-8A798E1F1653}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.Discovery.Client", "Service.Discovery.Client\Service.Discovery.Client.csproj", "{094F56FB-C931-433A-A502-E9A953B03011}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +53,10 @@ Global
 		{16562D69-0C0F-4DFD-8E18-0AC2C36E3FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16562D69-0C0F-4DFD-8E18-0AC2C36E3FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16562D69-0C0F-4DFD-8E18-0AC2C36E3FAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{094F56FB-C931-433A-A502-E9A953B03011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{094F56FB-C931-433A-A502-E9A953B03011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{094F56FB-C931-433A-A502-E9A953B03011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{094F56FB-C931-433A-A502-E9A953B03011}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +68,7 @@ Global
 		{CBC994A6-9218-4AD5-983B-816EE65BAF8A} = {E08E4598-D1B0-4ED0-8A0F-61394F17EC63}
 		{CAD7B808-EC08-45F7-B4B2-F3CE3C6910E8} = {701E68C8-4600-4DA4-81A2-57743E843F15}
 		{16562D69-0C0F-4DFD-8E18-0AC2C36E3FAE} = {E08E4598-D1B0-4ED0-8A0F-61394F17EC63}
+		{094F56FB-C931-433A-A502-E9A953B03011} = {1DAC3DD2-997D-401B-A95C-8A798E1F1653}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {64621B74-5F49-4681-8247-1CBDC7585D3B}
